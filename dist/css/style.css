@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* promo section */
+.promo{
+    background-image: url("../img/main_bg.jpg");
+    
+}
