@@ -148,7 +148,7 @@ color: #252525;
 text-align: center;
 }
 
-.pc .yellowline{
+.yellowline{
     width: 217px;
     height: 4px;
     background-color: #f9bf3b;
@@ -219,6 +219,7 @@ text-align: center;
     color: #299cbd;
 }
 .optimization p{
+    margin-top: 25px;
     margin-left: 391px;
     font-family: Roboto;
     font-size: 17px;
@@ -229,4 +230,137 @@ color: #4a4a4a;
 
 .optimization p span{
     font-weight: 700;
+}
+
+/* section mini icons */
+
+.mini{
+    min-height: 447px;
+    padding:86px 0 79px 0;
+    background-image: url("../img/second_bg.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.mini_title{
+    font-family: Roboto;
+font-size: 30px;
+
+font-weight: 400;
+text-transform: uppercase;
+color: #efefef;
+text-align: center;
+}
+.mini_wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+.mini_item{
+    max-width: 204px;
+}
+.mini_item .round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    margin: 0 auto;
+height: 115px;
+background-color: #b4e2ff;
+border-radius:100%;
+}
+.mini_descr{
+    margin-top: 26px;
+    font-family: Roboto;
+font-size: 17px;
+text-align: center;
+font-weight: 300;
+color: #efefef;
+
+}
+
+/* prezent section */
+
+.present{
+    min-height: 628px;
+    background-color: #efefef;
+    padding: 68px 0 83px 0;
+}
+.present img{
+    display: block;
+    margin: 0 auto;
+}
+
+.present .present_text{
+    font-family: Roboto;
+font-size: 30px;
+text-align: center;
+font-weight: 400;
+color: #252525;
+margin-top: 42px;
+}
+
+.present button{
+    border:1px solid rgba(0,0,0,0.22)
+}
+
+.first_vebinar{
+    min-height: 515px;
+    padding: 89px 0 64px 0;
+}
+.first_vebinar img{
+    display: block;
+    margin: 0 auto;
+}
+
+.first_wrapper{
+    
+    text-align: center;
+}
+.first_title{
+    font-family: Roboto;
+font-size: 30px;
+margin-top: 37px;
+font-weight: 400;
+text-transform: uppercase;
+color: #252525;
+}
+.first_time{
+    font-family: Roboto;
+font-size: 36px;
+margin-top: 30px;
+font-weight: 900;
+text-transform: uppercase;
+color: #299cbd;
+}
+.first_subtitle{
+    font-family: Roboto;
+font-size: 23px;
+margin-top: 25px;
+font-weight: 400;
+color: #4a4a4a;
+}
+
+footer{
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+}
+.footer_wrapper{
+    text-align: center;
+    
+}
+.footer_wrapper a{
+    
+    font-family: Roboto;
+    font-size: 15px;
+    color: #888888;
+    font-weight: 300;
+    text-decoration: underline;
+     
+}
+
+.footer_wrapper .no_under{
+   text-decoration: none;
+   color: #888888;
 }
