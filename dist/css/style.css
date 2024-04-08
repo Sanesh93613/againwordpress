@@ -9,7 +9,9 @@
 /* promo section */
 .promo{
     background-image: url("../img/main_bg.jpg");
-    height: 800px;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    min-height: 800px;
     padding: 39px 0 62px 0;
 }
 .logo_img{
@@ -131,7 +133,7 @@ text-align: center;
 /* section pc */
 
 .pc{
-    height: 604px;
+    min-height: 604px;
 background-color: #efefef;
 padding: 85px 0px 75px 0px;
 }
@@ -190,4 +192,41 @@ text-align: center;
     
     font-weight: 300;
     color: #4a4a4a;
+}
+/* section optimization */
+.optimization{
+    position: relative;
+    min-height: 550px;
+    padding: 102px 0px 107px 0px;
+}
+.optimization .woman_bg{
+    position: absolute;
+    top: 48px;
+    left: -35px;
+    z-index: -1;
+    width: 868px;
+    height: 502px;
+}
+
+.optimization_header{
+    
+    margin-left: 391px;
+    font-family: Roboto;
+    font-size: 30px;
+    
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #299cbd;
+}
+.optimization p{
+    margin-left: 391px;
+    font-family: Roboto;
+    font-size: 17px;
+
+font-weight: 300;
+color: #4a4a4a;
+}
+
+.optimization p span{
+    font-weight: 700;
 }
